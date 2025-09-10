@@ -1,11 +1,16 @@
+# basic_operations.py
+
+# Step 1: Define variables
 number1 = 10
 number2 = 5
 
-sum_result = number1 + number2
-difference_result = number1 - number2
-product_result = number1 * number2
+# Step 2: Perform arithmetic operations
+addition = number1 + number2
+subtraction = number1 - number2
+multiplication = number1 * number2
 
-print(f"Addition of {number1} and {number2} is {sum_result}")
-print(f"Subtraction of {number1} and {number2} is {difference_result}")
-print(f"Multiplication of {number1} and {number2} is {product_result}")
-EOF
+# Step 3: Print results
+print(f"Addition of {number1} and {number2} is {addition}")
+print(f"Subtraction of {number1} and {number2} is {subtraction}")
+print(f"Multiplication of {number1} and {number2} is {multiplication}")
+
